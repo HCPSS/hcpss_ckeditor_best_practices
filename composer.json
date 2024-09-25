@@ -1,0 +1,12 @@
+{
+    "name": "drupal/hcpss_ckeditor_best_practices",
+    "description": "Add warnings for common pitfalls in CKEditor5.",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Brendan Anderson",
+            "email": "brendan_anderson@hcpss.org"
+        }
+    ]
+}
