@@ -1,0 +1,7 @@
+name: 'HCPSS CKEditor Best Practices'
+type: module
+description: 'Warn CKEditor users when they are using bad practices.'
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:ckeditor5
+package: CKEditor 5

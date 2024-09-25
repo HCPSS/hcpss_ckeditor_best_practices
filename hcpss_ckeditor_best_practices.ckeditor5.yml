@@ -1,0 +1,12 @@
+hcpss_ckeditor_best_practices_plugin:
+  ckeditor5:
+    plugins:
+      - bestPracticesPlugin.BestPractices
+    config:
+      bestPractices:
+        displayCharacters: false
+  drupal:
+    label: Best Practices
+    library: hcpss_ckeditor_best_practices/bestpractices
+    elements: false
+    conditions: []

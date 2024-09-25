@@ -1,0 +1,8 @@
+bestpractices:
+  js:
+    js/build/bestPracticesPlugin.js: { preprocess: false, minified: true }
+  css:
+    component:
+      css/ckeditor_best_practices.css: {}
+  dependencies:
+    - core/ckeditor5

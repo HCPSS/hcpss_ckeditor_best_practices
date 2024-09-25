@@ -1,0 +1,9 @@
+hcpss_ckeditor_best_practices.tips:
+  path: '/hcpss-ckeditor-best-practices/tips'
+  defaults:
+    _title: 'Writing for the Web'
+    _controller: '\Drupal\hcpss_ckeditor_best_practices\Controller\HcpssCkeditorBestPracticesController'
+  requirements:
+    _permission: 'access content'
+  options:
+    _admin_route: TRUE
