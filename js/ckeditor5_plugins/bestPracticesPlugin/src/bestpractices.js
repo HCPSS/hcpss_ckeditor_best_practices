@@ -30,7 +30,7 @@ export default class BestPractices extends Plugin {
             '<a href="/hcpss-ckeditor-best-practices/tips#word" target="_blank">More ' +
             'information about accessible office documents.</a>');
         }
-        if (child.data.startsWith('http://') || child.data.startsWith('https://')) {
+        if (child.data && (child.data.startsWith('http://') || child.data.startsWith('https://'))) {
           messages.push('' +
             'You are using a URL as link text. When you hyperlink content, make ' +
             'sure you link phrases that convey information about the destination. ' +
