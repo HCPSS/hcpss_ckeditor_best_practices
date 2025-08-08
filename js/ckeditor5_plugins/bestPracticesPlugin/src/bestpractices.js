@@ -37,6 +37,16 @@ export default class BestPractices extends Plugin {
             '<a href="/hcpss-ckeditor-best-practices/tips#link" target="_blank">More ' +
             'information about good links.</a>');
         }
+        if (href.startsWith('https://nam10.safelinks.protection.outlook.com/')) {
+          messages.push('' +
+            'It looks like you may have copied and pasted a link from an email. ' +
+            'You have to be careful doing that because the HCPSS email system ' +
+            'rewrites all links in emails are using Microsoft Outlooks “Safelinks” ' +
+            'system. Please check your links to make sure they do not start with ' +
+            '"name10.safelinks.protection.outlook.com". ' +
+            '<a href="/hcpss-ckeditor-best-practices/tips#safelinks" target="_blank">More ' +
+            'information about this topic.</a>');
+        }
       }
 
       if (child.childCount) {

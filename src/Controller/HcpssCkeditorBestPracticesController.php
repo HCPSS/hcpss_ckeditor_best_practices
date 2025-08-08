@@ -194,6 +194,38 @@ final class HcpssCkeditorBestPracticesController extends ControllerBase {
       ',
     ];
 
+    $build['safelinks'] = ['#type' => 'container'];
+    $build['safelinks']['head'] = [
+      '#type' => 'html_tag',
+      '#tag' => 'h2',
+      '#value' => 'Do Not Copy Links From Your HCPSS Email',
+      '#attributes' => [
+        'id' => 'safelinks',
+      ]
+    ];
+    $build['safelinks']['content_p1'] = [
+      '#type' => 'html_tag',
+      '#tag' => 'p',
+      '#value' => '
+        In order to protect HCPSS employees from phishing scams, viruses, and
+        malware,
+        <a href="https://support.microsoft.com/en-us/office/advanced-outlook-com-security-for-microsoft-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2">links
+        in your HCPSS email are rewritten to pass through the outlook.com as a
+        layer of protection.</a> Most of the time, you will not notice this.
+      ',
+    ];
+    $build['safelinks']['content_p2'] = [
+      '#type' => 'html_tag',
+      '#tag' => 'p',
+      '#value' => '
+        When you copy and paste links from your email to content on your school
+        website, this layer of protection is not necessary and can cause
+        problems. You should inspect your links and make sure that they are
+        correct and that they do not start with
+        "name10.safelinks.protection.outlook.com".
+      ',
+    ];
+
     return $build;
   }
 }
