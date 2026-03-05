@@ -9,7 +9,7 @@
     "build": "webpack"
   },
   "devDependencies": {
-    "ckeditor5": "~47.3.0",
+    "ckeditor5": "~47.6.0",
     "css-loader": "^7.1.2",
     "raw-loader": "^4.0.2",
     "terser-webpack-plugin": "^5.2.0",
@@ -17,15 +17,15 @@
     "webpack-cli": "^4.4.0"
   },
   "dependencies": {
-    "@ckeditor/ckeditor5-basic-styles": "^47.3.0",
-    "@ckeditor/ckeditor5-core": "^47.3.0",
-    "@ckeditor/ckeditor5-editor-classic": "^47.3.0",
-    "@ckeditor/ckeditor5-essentials": "^47.3.0",
-    "@ckeditor/ckeditor5-heading": "^47.3.0",
-    "@ckeditor/ckeditor5-list": "^47.3.0",
-    "@ckeditor/ckeditor5-paragraph": "^47.3.0",
-    "@ckeditor/ckeditor5-theme-lark": "^47.3.0",
-    "@ckeditor/ckeditor5-ui": "^47.3.0",
+    "@ckeditor/ckeditor5-basic-styles": "^47.6.0",
+    "@ckeditor/ckeditor5-core": "^47.6.0",
+    "@ckeditor/ckeditor5-editor-classic": "^47.6.0",
+    "@ckeditor/ckeditor5-essentials": "^47.6.0",
+    "@ckeditor/ckeditor5-heading": "^47.6.0",
+    "@ckeditor/ckeditor5-list": "^47.6.0",
+    "@ckeditor/ckeditor5-paragraph": "^47.6.0",
+    "@ckeditor/ckeditor5-theme-lark": "^47.6.0",
+    "@ckeditor/ckeditor5-ui": "^47.6.0",
     "lodash-es": "^4.17.23"
   }
 }
